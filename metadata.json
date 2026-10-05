@@ -1,0 +1,8 @@
+{
+  "name": "La Casa del Sol y la Luna Oficial?",
+  "description": "Centro de primera infancia y jardín infantil con pedagogía activa y Montessori en La Ceja, Antioquia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
