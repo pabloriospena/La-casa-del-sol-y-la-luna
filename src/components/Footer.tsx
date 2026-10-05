@@ -30,7 +30,7 @@ const Footer = () => (
         <div>
             <h4 className="font-bold text-white mb-4 font-heading">Visitas Guiadas</h4>
             <p className="text-xs mb-4">Conoce nuestros espacios diseñados a la escala del niño.</p>
-            <button className="px-5 py-3 bg-[#006492] text-white rounded-full text-xs font-bold font-heading">Agendar por WhatsApp</button>
+            <a href="https://wa.me/573113863086" target="_blank" rel="noopener noreferrer" className="px-5 py-3 bg-[#006492] text-white rounded-full text-xs font-bold font-heading">Agendar por WhatsApp</a>
         </div>
     </div>
     <div className="max-w-[1240px] mx-auto px-6 mt-16 pt-8 border-t border-gray-800 text-xs text-gray-500 flex justify-between">

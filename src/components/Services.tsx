@@ -1,4 +1,5 @@
 import React from 'react';
+import servicePlaceholder from '../assets/images/service_placeholder_1791233143362.jpg';
 
 const Services = () => (
   <section id="servicios" className="py-20 bg-brand-background">
@@ -53,7 +54,7 @@ const Services = () => (
                     <li className="flex gap-2">✓ Incluye recesos escolares.</li>
                     <li className="flex gap-2">✓ Bitácora diaria real.</li>
                 </ul>
-                <button className="w-full mt-8 py-3 rounded-full bg-brand-secondary-container text-white font-bold text-sm">Consultar cupos Servicio Regular por WhatsApp</button>
+                <a href="https://wa.me/573113863086" target="_blank" rel="noopener noreferrer" className="block w-full text-center mt-8 py-3 rounded-full bg-brand-secondary-container text-white font-bold text-sm hover:bg-brand-secondary transition-all">Consultar cupos Servicio Regular por WhatsApp</a>
             </div>
          </div>
       </div>
@@ -66,6 +67,7 @@ const Services = () => (
         ].map((s, i) => (
             <div key={i} className="bg-white p-8 rounded-[2.25rem] border border-gray-100 shadow-lg flex flex-col justify-between">
                 <div>
+                    <img src={servicePlaceholder} className="w-full h-40 object-cover rounded-2xl mb-6" />
                     <div className="flex gap-2 mb-4">
                         <span className="px-3 py-1 rounded-full bg-brand-peach-light text-brand-secondary text-xs font-bold">{s.tag}</span>
                         {s.tag2 && <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-600 text-xs font-bold">{s.tag2}</span>}
@@ -75,7 +77,7 @@ const Services = () => (
                 </div>
                 <div className="flex items-center justify-between">
                     <span className="text-xs font-bold text-brand-muted">Cupos limitados</span>
-                    <button className="px-6 py-3 rounded-full bg-brand-primary text-white font-bold text-sm">{s.btn}</button>
+                    <a href="https://wa.me/573113863086" target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-full bg-brand-primary text-white font-bold text-sm hover:bg-brand-secondary transition-all">{s.btn}</a>
                 </div>
             </div>
         ))}

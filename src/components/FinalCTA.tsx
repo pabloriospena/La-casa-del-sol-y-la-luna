@@ -10,8 +10,8 @@ const FinalCTA = () => (
                 <span className="material-symbols-outlined text-sm">location_on</span> Calle 22 #19-31 • La Ceja, Antioquia
             </div>
             <h2 className="text-4xl font-extrabold mb-6 font-heading">La Casa del Sol y la Luna</h2>
-            <p className="text-sm text-gray-300 mb-10 max-w-xl mx-auto font-body">Agenda para observar cómo interactúan los niños, conocer a las maestras y resolver cualquier inquietud antes de tomar tu decisión.</p>
-            <a href="https://wa.me/573113863086" className="px-8 py-4 rounded-full bg-[#FF784B] text-white font-bold text-sm shadow-xl hover:bg-[#E25B2D] transition-all flex items-center justify-center gap-2 max-w-fit mx-auto">
+            <p className="text-sm text-gray-300 mb-10 max-w-xl mx-auto font-body leading-relaxed">Agenda para observar cómo interactúan los niños, conocer a las maestras y resolver cualquier inquietud antes de tomar tu decisión.</p>
+            <a href="https://wa.me/573113863086" target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full bg-[#FF784B] text-white font-bold text-sm shadow-xl hover:bg-[#E25B2D] transition-all flex items-center justify-center gap-2 max-w-fit mx-auto">
                 <span className="material-symbols-outlined">chat</span>
                 Agenda tu visita por WhatsApp (+57 311 386 3086)
             </a>

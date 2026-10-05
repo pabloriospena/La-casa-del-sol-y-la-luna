@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/images/hero_preschool_class_1791214882558.jpg';
+import heroPlaceholder from '../assets/images/hero_placeholder_1791233130777.jpg';
 
 const Hero = () => (
   <section className="pt-32 pb-20 bg-brand-background">
@@ -18,7 +18,7 @@ const Hero = () => (
           Acompañamos a niños y niñas de 6 meses a 5 años en La Ceja, con Montessori, crianza respetuosa y horarios flexibles. Mantenemos una comunicación cercana con cada familia para que sepan qué comió, qué hizo y cómo estuvo su hijo.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-4">
-            <a href="https://wa.me/573113863086" className="px-8 py-4 rounded-full bg-[#FF784B] text-white font-bold text-center hover:bg-[#E25B2D] transition-all shadow-lg flex items-center justify-center gap-2">
+            <a href="https://wa.me/573113863086" target="_blank" rel="noopener noreferrer" className="px-8 py-4 rounded-full bg-[#FF784B] text-white font-bold text-center hover:bg-[#E25B2D] transition-all shadow-lg flex items-center justify-center gap-2">
                 <span className="material-symbols-outlined">chat</span>
                 Consultar cupos disponibles por WhatsApp
             </a>
@@ -48,7 +48,7 @@ const Hero = () => (
       <div className="lg:col-span-5 relative">
         <div className="bg-white p-4 rounded-[2.25rem] shadow-xl border border-gray-100">
             <img
-            src={heroImage}
+            src={heroPlaceholder}
             alt="Montessori classroom"
             className="rounded-[2rem] w-full h-[480px] object-cover"
             />

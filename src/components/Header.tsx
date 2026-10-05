@@ -4,9 +4,7 @@ const Header = () => (
   <header className="fixed top-0 left-0 right-0 z-50 bg-[#FFFDF7]/90 backdrop-blur-md border-b border-gray-100">
     <div className="max-w-[1240px] mx-auto px-6 h-20 flex items-center justify-between">
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center text-orange-600">
-            <span className="material-symbols-outlined">home</span>
-        </div>
+        <img src="/logo.jpg" alt="Logo" className="w-10 h-10 rounded-full" />
         <div className="flex flex-col">
           <span className="text-xl font-extrabold text-brand-primary leading-tight font-heading">La Casa del Sol y la Luna</span>
           <span className="text-xs font-semibold text-brand-on-surface-variant font-body">📍 La Ceja, Antioquia 🌙</span>
@@ -21,6 +19,7 @@ const Header = () => (
       </nav>
       <a
         href="https://wa.me/573113863086"
+        target="_blank" rel="noopener noreferrer"
         className="px-6 py-3 text-sm font-bold text-white bg-[#FF784B] rounded-full hover:bg-[#E25B2D] transition-all flex items-center gap-2 shadow-[0_4px_12px_rgba(255,120,75,0.3)]"
       >
         <span className="material-symbols-outlined">chat</span>
