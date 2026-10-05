@@ -1,5 +1,5 @@
 import React from 'react';
-import heroPlaceholder from '../assets/images/hero_placeholder_1791233130777.jpg';
+
 
 const Hero = () => (
   <section className="pt-32 pb-20 bg-brand-background">
@@ -48,7 +48,7 @@ const Hero = () => (
       <div className="lg:col-span-5 relative">
         <div className="bg-white p-4 rounded-[2.25rem] shadow-xl border border-gray-100">
             <img
-            src={heroPlaceholder}
+            src="/img1.jpeg"
             alt="Montessori classroom"
             className="rounded-[2rem] w-full h-[480px] object-cover"
             />

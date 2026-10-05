@@ -1,5 +1,5 @@
 import React from 'react';
-import servicePlaceholder from '../assets/images/service_placeholder_1791233143362.jpg';
+
 
 const Services = () => (
   <section id="servicios" className="py-20 bg-brand-background">
@@ -67,7 +67,6 @@ const Services = () => (
         ].map((s, i) => (
             <div key={i} className="bg-white p-8 rounded-[2.25rem] border border-gray-100 shadow-lg flex flex-col justify-between">
                 <div>
-                    <img src={servicePlaceholder} className="w-full h-40 object-cover rounded-2xl mb-6" />
                     <div className="flex gap-2 mb-4">
                         <span className="px-3 py-1 rounded-full bg-brand-peach-light text-brand-secondary text-xs font-bold">{s.tag}</span>
                         {s.tag2 && <span className="px-3 py-1 rounded-full bg-gray-100 text-gray-600 text-xs font-bold">{s.tag2}</span>}

@@ -5,7 +5,7 @@ const Alimentacion = () => (
       <div className="max-w-[1240px] mx-auto px-6">
         <div className="text-center mb-16">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-peach-light text-brand-secondary text-xs font-bold mb-4 border border-brand-peach-light">
-                <span className="material-symbols-outlined text-sm">apple</span> CUIDADO SIN SECRETOS
+                <span className="material-symbols-outlined text-sm"></span> CUIDADO SIN SECRETOS
             </span>
             <h2 className="text-4xl font-extrabold text-brand-navy mb-4 font-heading">Alimentación Consciente y Apego Respetuoso</h2>
             <p className="text-sm text-brand-muted font-body">Porque la confianza se construye con hechos claros en la mesa y en el corazón del niño.</p>
@@ -15,7 +15,7 @@ const Alimentacion = () => (
             {/* Política Lonchera */}
             <div className="lg:col-span-7 p-10 bg-white rounded-[2.25rem] border border-gray-100 shadow-xl">
                 <div className="w-12 h-12 rounded-2xl bg-brand-mint-light flex items-center justify-center text-brand-tertiary mb-6">
-                    <span className="material-symbols-outlined">kitchen</span>
+                    <span className="material-symbols-outlined"></span>
                 </div>
                 <h3 className="text-2xl font-bold text-brand-navy mb-6 font-heading">Política de Lonchera y Comida Real</h3>
                 <p className="text-sm text-brand-muted font-body mb-8">En muchos jardines las familias no saben qué comió su hijo ni si fue obligado. En La Casa practicamos transparencia radical:</p>
@@ -43,7 +43,7 @@ const Alimentacion = () => (
             <div className="lg:col-span-5 flex flex-col gap-8">
                 <div className="p-8 bg-white rounded-[2.25rem] border border-gray-100 shadow-lg">
                     <div className="flex justify-between items-center mb-6">
-                        <h4 className="font-bold text-brand-navy flex items-center gap-2 font-heading"><span className="material-symbols-outlined text-brand-secondary">assignment_turned_in</span> Bitácora Diaria Real</h4>
+                        <h4 className="font-bold text-brand-navy flex items-center gap-2 font-heading"><span className="material-symbols-outlined text-brand-secondary">assignment_turned_in</span> Comunicación Diaria</h4>
                         <span className="px-3 py-1 rounded-full bg-brand-yellow-light text-brand-secondary text-xs font-bold">Reporte Diario</span>
                     </div>
                     <p className="text-xs text-brand-muted mb-6">«Sé dónde está mi hijo, qué hizo y qué comió»</p>
@@ -62,7 +62,6 @@ const Alimentacion = () => (
                     </div>
                     <div className="flex justify-between items-center pt-8 border-t border-brand-peach-light">
                         <span className="text-xs font-bold text-brand-secondary">Sin prisas ni rupturas abruptas</span>
-                        <a href="#" className="text-sm font-bold text-brand-navy flex items-center gap-2">Consultar protocolo →</a>
                     </div>
                 </div>
             </div>
